@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func main2() {
 	log.Print("正在启动Web服务器...")
 	const WebBindAddress string = "0.0.0.0:8080"
 	http.HandleFunc("/", index)

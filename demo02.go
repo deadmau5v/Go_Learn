@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main3() {
 	// 数据类型
 
 	// bool 类型
@@ -50,7 +50,13 @@ func main() {
 	//fmt.Printf("%T %f", str3, str3)
 
 	// 运算符
-	var int2 int = 0
+	var int2 int = 123
 	int2++
 	println(int2)
+
+	println(*&int2)
+
+	var x1 int = 10
+	var address *int = &x1
+	println(*address)
 }
