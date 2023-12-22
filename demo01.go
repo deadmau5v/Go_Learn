@@ -8,7 +8,7 @@ import (
 var globalName = "helloworld"
 var test = "version"
 
-func main() {
+func main1() {
 	// 调用fmt模块 打印
 	var test = "run"
 	fmt.Println("hello world")
