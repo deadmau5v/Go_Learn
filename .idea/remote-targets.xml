@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu" type="wsl" uuid="4fa42781-90b8-4425-8b63-bb7df5b0f776">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/mnt/c/Users/Administrator/AppData/Local/Programs/GoLand/jbr/bin&#10;, stderr=}/Go_Learn" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/d5v/GoWorke" />
+            <option name="goRoot" value="/opt/go/bin/go" />
+            <option name="goVersion" value="go1.21.5 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
