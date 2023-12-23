@@ -42,7 +42,7 @@ func (_ *Dog) GetType() string {
 	return "Dog"
 }
 
-func main() {
+func main15() {
 	// 多态
 	var animal Animal
 	animal = &Dog{}
