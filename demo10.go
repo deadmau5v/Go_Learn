@@ -27,5 +27,5 @@ func update_array(arr []int, index, value int) []int {
 }
 
 func init() {
-	println("初始化... demo10")
+
 }

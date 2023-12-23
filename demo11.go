@@ -1,6 +1,6 @@
 package main
 
-func main() {
+func main11() {
 	test1()
 
 	var a int = 1
@@ -10,6 +10,7 @@ func main() {
 	println("c 的内存地址", c)
 	var cc *int = *c
 	println("**c 的值", *cc) // 二级指针
+
 }
 
 func test1() {
