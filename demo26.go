@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main26() {
 	c := make(chan int)
 	quit := make(chan bool)
 
